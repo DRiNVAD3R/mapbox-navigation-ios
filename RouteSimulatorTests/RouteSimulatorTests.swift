@@ -1,6 +1,7 @@
 import XCTest
+@testable import RouteSimulator
 
-class MapboxNavigationUITests: XCTestCase {
+class RouteSimulatorTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

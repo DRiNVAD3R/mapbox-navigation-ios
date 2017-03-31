@@ -14,7 +14,6 @@
 		35002D6F1E5F6C7F0090E733 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 35002D6B1E5F6C7F0090E733 /* Base.lproj */; };
 		35002D711E5F6C7F0090E733 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35002D6D1E5F6C7F0090E733 /* main.m */; };
 		35002D761E5F6CD30090E733 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35002D741E5F6CD30090E733 /* Main.storyboard */; };
-		351BEBDB1E5BCC28006FE110 /* MapboxNavigationUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 351BEBD91E5BCC28006FE110 /* MapboxNavigationUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		351BEBF11E5BCC63006FE110 /* MGLMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351BEBDF1E5BCC63006FE110 /* MGLMapView.swift */; };
 		351BEBF21E5BCC63006FE110 /* NavigationUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351BEBE01E5BCC63006FE110 /* NavigationUI.swift */; };
 		351BEBF51E5BCC63006FE110 /* RouteManeuverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351BEBE31E5BCC63006FE110 /* RouteManeuverViewController.swift */; };
@@ -88,6 +87,37 @@
 		358D14661E5E3B7700ADE590 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358D14651E5E3B7700ADE590 /* AppDelegate.swift */; };
 		358D14681E5E3B7700ADE590 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358D14671E5E3B7700ADE590 /* ViewController.swift */; };
 		359D00CF1E732D7100C2E770 /* Polyline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354A01BC1E66259600D765C2 /* Polyline.framework */; };
+		35A6029F1E8E995F003B4E48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A6029E1E8E995F003B4E48 /* AppDelegate.swift */; };
+		35A602A11E8E995F003B4E48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A602A01E8E995F003B4E48 /* ViewController.swift */; };
+		35A602A41E8E995F003B4E48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35A602A21E8E995F003B4E48 /* Main.storyboard */; };
+		35A602A61E8E995F003B4E48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35A602A51E8E995F003B4E48 /* Assets.xcassets */; };
+		35A602A91E8E995F003B4E48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35A602A71E8E995F003B4E48 /* LaunchScreen.storyboard */; };
+		35A602B41E8E995F003B4E48 /* RouteSimulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A602B31E8E995F003B4E48 /* RouteSimulatorTests.swift */; };
+		35A602BF1E8E995F003B4E48 /* RouteSimulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A602BE1E8E995F003B4E48 /* RouteSimulatorUITests.swift */; };
+		35A602CA1E8E996C003B4E48 /* MapboxNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5ADFBC91DDCC7840011824B /* MapboxNavigation.framework */; };
+		35A602CB1E8E996C003B4E48 /* MapboxNavigation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C5ADFBC91DDCC7840011824B /* MapboxNavigation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		35A602CE1E8E996C003B4E48 /* MapboxNavigationUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 351BEBD71E5BCC28006FE110 /* MapboxNavigationUI.framework */; };
+		35A602CF1E8E996C003B4E48 /* MapboxNavigationUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 351BEBD71E5BCC28006FE110 /* MapboxNavigationUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		35A602D21E8E996C003B4E48 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A602961E8E994E003B4E48 /* CocoaAsyncSocket.framework */; };
+		35A602D31E8E996C003B4E48 /* CocoaAsyncSocket.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35A602961E8E994E003B4E48 /* CocoaAsyncSocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		35A602D41E8E996C003B4E48 /* GuideDog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A602971E8E994E003B4E48 /* GuideDog.framework */; };
+		35A602D51E8E996C003B4E48 /* GuideDog.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35A602971E8E994E003B4E48 /* GuideDog.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		35A602D61E8E996C003B4E48 /* AWSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354BD4F61E6638E800AE1344 /* AWSCore.framework */; };
+		35A602D71E8E996C003B4E48 /* AWSCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 354BD4F61E6638E800AE1344 /* AWSCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		35A602D81E8E996C003B4E48 /* AWSPolly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354BD4F11E6634C500AE1344 /* AWSPolly.framework */; };
+		35A602D91E8E996C003B4E48 /* AWSPolly.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 354BD4F11E6634C500AE1344 /* AWSPolly.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		35A602DA1E8E996C003B4E48 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354A01BE1E6625A900D765C2 /* SDWebImage.framework */; };
+		35A602DB1E8E996C003B4E48 /* SDWebImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 354A01BE1E6625A900D765C2 /* SDWebImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		35A602DC1E8E996C003B4E48 /* Pulley.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354A01BD1E66259E00D765C2 /* Pulley.framework */; };
+		35A602DD1E8E996C003B4E48 /* Pulley.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 354A01BD1E66259E00D765C2 /* Pulley.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		35A602DE1E8E996C003B4E48 /* Polyline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354A01BC1E66259600D765C2 /* Polyline.framework */; };
+		35A602DF1E8E996C003B4E48 /* Polyline.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 354A01BC1E66259600D765C2 /* Polyline.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		35A602E01E8E996C003B4E48 /* OSRMTextInstructions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354A01BB1E66258A00D765C2 /* OSRMTextInstructions.framework */; };
+		35A602E11E8E996C003B4E48 /* OSRMTextInstructions.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 354A01BB1E66258A00D765C2 /* OSRMTextInstructions.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		35A602E21E8E996C003B4E48 /* MapboxDirections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354A01B81E66256600D765C2 /* MapboxDirections.framework */; };
+		35A602E31E8E996C003B4E48 /* MapboxDirections.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 354A01B81E66256600D765C2 /* MapboxDirections.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		35A602E41E8E996C003B4E48 /* Mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A1D3651E6624EF00A48FE8 /* Mapbox.framework */; };
+		35A602E51E8E996C003B4E48 /* Mapbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 35A1D3651E6624EF00A48FE8 /* Mapbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		35B711D21E5E7AD2001EDA8D /* MapboxNavigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B711D11E5E7AD2001EDA8D /* MapboxNavigationUITests.swift */; };
 		35B711D41E5E7AD2001EDA8D /* MapboxNavigationUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 351BEBD71E5BCC28006FE110 /* MapboxNavigationUI.framework */; };
 		35B839491E2E3D5D0045A868 /* MBRouteController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B839481E2E3D5D0045A868 /* MBRouteController.m */; };
@@ -97,7 +127,7 @@
 		35D457A71E2D253100A89946 /* MBRouteController.h in Headers */ = {isa = PBXBuildFile; fileRef = 35D457A61E2D253100A89946 /* MBRouteController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35D825FB1E6A2DBE0088F83B /* MGLMapView+MGLNavigationAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 35D825F91E6A2DBE0088F83B /* MGLMapView+MGLNavigationAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35D825FC1E6A2DBE0088F83B /* MGLMapView+MGLNavigationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D825FA1E6A2DBE0088F83B /* MGLMapView+MGLNavigationAdditions.m */; };
-		35D825FE1E6A2EC60088F83B /* MapboxNavigationUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 35D825FD1E6A2EC60088F83B /* MapboxNavigationUI.h */; };
+		35D825FE1E6A2EC60088F83B /* MapboxNavigationUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 35D825FD1E6A2EC60088F83B /* MapboxNavigationUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C52AC1261DF0E48600396B9F /* RouteProgressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52AC1251DF0E48600396B9F /* RouteProgressTests.swift */; };
 		C52D09CC1DEF444D00BE3C5C /* GeometryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52D09CB1DEF444D00BE3C5C /* GeometryTests.swift */; };
 		C52D09CE1DEF5E5100BE3C5C /* route.json in Resources */ = {isa = PBXBuildFile; fileRef = C52D09CD1DEF5E5100BE3C5C /* route.json */; };
@@ -170,6 +200,34 @@
 			remoteGlobalIDString = 351BEBD61E5BCC28006FE110;
 			remoteInfo = MapboxNavigationUI;
 		};
+		35A602B01E8E995F003B4E48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5ADFBC01DDCC7840011824B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35A6029B1E8E995F003B4E48;
+			remoteInfo = RouteSimulator;
+		};
+		35A602BB1E8E995F003B4E48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5ADFBC01DDCC7840011824B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35A6029B1E8E995F003B4E48;
+			remoteInfo = RouteSimulator;
+		};
+		35A602CC1E8E996C003B4E48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5ADFBC01DDCC7840011824B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5ADFBC81DDCC7840011824B;
+			remoteInfo = MapboxNavigation;
+		};
+		35A602D01E8E996C003B4E48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5ADFBC01DDCC7840011824B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 351BEBD61E5BCC28006FE110;
+			remoteInfo = MapboxNavigationUI;
+		};
 		35B711D51E5E7AD2001EDA8D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C5ADFBC01DDCC7840011824B /* Project object */;
@@ -234,6 +292,28 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		35A602E61E8E996C003B4E48 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				35A602DF1E8E996C003B4E48 /* Polyline.framework in Embed Frameworks */,
+				35A602D31E8E996C003B4E48 /* CocoaAsyncSocket.framework in Embed Frameworks */,
+				35A602D71E8E996C003B4E48 /* AWSCore.framework in Embed Frameworks */,
+				35A602CB1E8E996C003B4E48 /* MapboxNavigation.framework in Embed Frameworks */,
+				35A602D51E8E996C003B4E48 /* GuideDog.framework in Embed Frameworks */,
+				35A602E31E8E996C003B4E48 /* MapboxDirections.framework in Embed Frameworks */,
+				35A602DB1E8E996C003B4E48 /* SDWebImage.framework in Embed Frameworks */,
+				35A602CF1E8E996C003B4E48 /* MapboxNavigationUI.framework in Embed Frameworks */,
+				35A602E11E8E996C003B4E48 /* OSRMTextInstructions.framework in Embed Frameworks */,
+				35A602D91E8E996C003B4E48 /* AWSPolly.framework in Embed Frameworks */,
+				35A602DD1E8E996C003B4E48 /* Pulley.framework in Embed Frameworks */,
+				35A602E51E8E996C003B4E48 /* Mapbox.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -294,6 +374,21 @@
 		358D14671E5E3B7700ADE590 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		358D14A61E5E3FDC00ADE590 /* Example-Objective-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Example-Objective-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35A1D3651E6624EF00A48FE8 /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mapbox.framework; path = Carthage/Build/iOS/Mapbox.framework; sourceTree = "<group>"; };
+		35A602961E8E994E003B4E48 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = Carthage/Build/iOS/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
+		35A602971E8E994E003B4E48 /* GuideDog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GuideDog.framework; path = Carthage/Build/iOS/GuideDog.framework; sourceTree = "<group>"; };
+		35A6029C1E8E995F003B4E48 /* RouteSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RouteSimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35A6029E1E8E995F003B4E48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		35A602A01E8E995F003B4E48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		35A602A31E8E995F003B4E48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35A602A51E8E995F003B4E48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35A602A81E8E995F003B4E48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		35A602AA1E8E995F003B4E48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35A602AF1E8E995F003B4E48 /* RouteSimulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RouteSimulatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35A602B31E8E995F003B4E48 /* RouteSimulatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteSimulatorTests.swift; sourceTree = "<group>"; };
+		35A602B51E8E995F003B4E48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35A602BA1E8E995F003B4E48 /* RouteSimulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RouteSimulatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35A602BE1E8E995F003B4E48 /* RouteSimulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteSimulatorUITests.swift; sourceTree = "<group>"; };
+		35A602C01E8E995F003B4E48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35B711CF1E5E7AD2001EDA8D /* MapboxNavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapboxNavigationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35B711D11E5E7AD2001EDA8D /* MapboxNavigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapboxNavigationUITests.swift; sourceTree = "<group>"; };
 		35B711D31E5E7AD2001EDA8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -376,6 +471,39 @@
 				354A01E21E6626EF00D765C2 /* Pulley.framework in Frameworks */,
 				354A01E61E6626EF00D765C2 /* OSRMTextInstructions.framework in Frameworks */,
 				354A01EC1E6626EF00D765C2 /* Mapbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35A602991E8E995F003B4E48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35A602DE1E8E996C003B4E48 /* Polyline.framework in Frameworks */,
+				35A602D21E8E996C003B4E48 /* CocoaAsyncSocket.framework in Frameworks */,
+				35A602D61E8E996C003B4E48 /* AWSCore.framework in Frameworks */,
+				35A602CA1E8E996C003B4E48 /* MapboxNavigation.framework in Frameworks */,
+				35A602D41E8E996C003B4E48 /* GuideDog.framework in Frameworks */,
+				35A602E21E8E996C003B4E48 /* MapboxDirections.framework in Frameworks */,
+				35A602DA1E8E996C003B4E48 /* SDWebImage.framework in Frameworks */,
+				35A602CE1E8E996C003B4E48 /* MapboxNavigationUI.framework in Frameworks */,
+				35A602E01E8E996C003B4E48 /* OSRMTextInstructions.framework in Frameworks */,
+				35A602D81E8E996C003B4E48 /* AWSPolly.framework in Frameworks */,
+				35A602DC1E8E996C003B4E48 /* Pulley.framework in Frameworks */,
+				35A602E41E8E996C003B4E48 /* Mapbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35A602AC1E8E995F003B4E48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35A602B71E8E995F003B4E48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,6 +661,37 @@
 			path = "Examples/Objective-C";
 			sourceTree = "<group>";
 		};
+		35A6029D1E8E995F003B4E48 /* RouteSimulator */ = {
+			isa = PBXGroup;
+			children = (
+				35A6029E1E8E995F003B4E48 /* AppDelegate.swift */,
+				35A602A01E8E995F003B4E48 /* ViewController.swift */,
+				35A602A21E8E995F003B4E48 /* Main.storyboard */,
+				35A602A51E8E995F003B4E48 /* Assets.xcassets */,
+				35A602A71E8E995F003B4E48 /* LaunchScreen.storyboard */,
+				35A602AA1E8E995F003B4E48 /* Info.plist */,
+			);
+			path = RouteSimulator;
+			sourceTree = "<group>";
+		};
+		35A602B21E8E995F003B4E48 /* RouteSimulatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				35A602B31E8E995F003B4E48 /* RouteSimulatorTests.swift */,
+				35A602B51E8E995F003B4E48 /* Info.plist */,
+			);
+			path = RouteSimulatorTests;
+			sourceTree = "<group>";
+		};
+		35A602BD1E8E995F003B4E48 /* RouteSimulatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				35A602BE1E8E995F003B4E48 /* RouteSimulatorUITests.swift */,
+				35A602C01E8E995F003B4E48 /* Info.plist */,
+			);
+			path = RouteSimulatorUITests;
+			sourceTree = "<group>";
+		};
 		35B711D01E5E7AD2001EDA8D /* MapboxNavigationUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -556,6 +715,8 @@
 		A9E2B43473B53369153F54C6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				35A602961E8E994E003B4E48 /* CocoaAsyncSocket.framework */,
+				35A602971E8E994E003B4E48 /* GuideDog.framework */,
 				354BD4F61E6638E800AE1344 /* AWSCore.framework */,
 				354BD4F11E6634C500AE1344 /* AWSPolly.framework */,
 				354A01BE1E6625A900D765C2 /* SDWebImage.framework */,
@@ -585,6 +746,9 @@
 				C5ADFBD61DDCC7840011824B /* MapboxNavigationTests */,
 				351BEBD81E5BCC28006FE110 /* MapboxNavigationUI */,
 				35B711D01E5E7AD2001EDA8D /* MapboxNavigationUITests */,
+				35A6029D1E8E995F003B4E48 /* RouteSimulator */,
+				35A602B21E8E995F003B4E48 /* RouteSimulatorTests */,
+				35A602BD1E8E995F003B4E48 /* RouteSimulatorUITests */,
 				C5ADFBCA1DDCC7840011824B /* Products */,
 				A9E2B43473B53369153F54C6 /* Frameworks */,
 			);
@@ -601,6 +765,9 @@
 				352BBC471E5E78D700703DF1 /* Example-SwiftTests.xctest */,
 				352BBC551E5E78EA00703DF1 /* Example-Objective-CTests.xctest */,
 				35B711CF1E5E7AD2001EDA8D /* MapboxNavigationUITests.xctest */,
+				35A6029C1E8E995F003B4E48 /* RouteSimulator.app */,
+				35A602AF1E8E995F003B4E48 /* RouteSimulatorTests.xctest */,
+				35A602BA1E8E995F003B4E48 /* RouteSimulatorUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -642,7 +809,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				35D825FE1E6A2EC60088F83B /* MapboxNavigationUI.h in Headers */,
-				351BEBDB1E5BCC28006FE110 /* MapboxNavigationUI.h in Headers */,
 				35D825FB1E6A2DBE0088F83B /* MGLMapView+MGLNavigationAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -755,6 +921,62 @@
 			productReference = 358D14A61E5E3FDC00ADE590 /* Example-Objective-C.app */;
 			productType = "com.apple.product-type.application";
 		};
+		35A6029B1E8E995F003B4E48 /* RouteSimulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35A602C11E8E995F003B4E48 /* Build configuration list for PBXNativeTarget "RouteSimulator" */;
+			buildPhases = (
+				35A602981E8E995F003B4E48 /* Sources */,
+				35A602991E8E995F003B4E48 /* Frameworks */,
+				35A6029A1E8E995F003B4E48 /* Resources */,
+				35A602E61E8E996C003B4E48 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35A602CD1E8E996C003B4E48 /* PBXTargetDependency */,
+				35A602D11E8E996C003B4E48 /* PBXTargetDependency */,
+			);
+			name = RouteSimulator;
+			productName = RouteSimulator;
+			productReference = 35A6029C1E8E995F003B4E48 /* RouteSimulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35A602AE1E8E995F003B4E48 /* RouteSimulatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35A602C41E8E995F003B4E48 /* Build configuration list for PBXNativeTarget "RouteSimulatorTests" */;
+			buildPhases = (
+				35A602AB1E8E995F003B4E48 /* Sources */,
+				35A602AC1E8E995F003B4E48 /* Frameworks */,
+				35A602AD1E8E995F003B4E48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35A602B11E8E995F003B4E48 /* PBXTargetDependency */,
+			);
+			name = RouteSimulatorTests;
+			productName = RouteSimulatorTests;
+			productReference = 35A602AF1E8E995F003B4E48 /* RouteSimulatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		35A602B91E8E995F003B4E48 /* RouteSimulatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35A602C71E8E995F003B4E48 /* Build configuration list for PBXNativeTarget "RouteSimulatorUITests" */;
+			buildPhases = (
+				35A602B61E8E995F003B4E48 /* Sources */,
+				35A602B71E8E995F003B4E48 /* Frameworks */,
+				35A602B81E8E995F003B4E48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35A602BC1E8E995F003B4E48 /* PBXTargetDependency */,
+			);
+			name = RouteSimulatorUITests;
+			productName = RouteSimulatorUITests;
+			productReference = 35A602BA1E8E995F003B4E48 /* RouteSimulatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		35B711CE1E5E7AD2001EDA8D /* MapboxNavigationUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35B711D71E5E7AD2001EDA8D /* Build configuration list for PBXNativeTarget "MapboxNavigationUITests" */;
@@ -819,8 +1041,8 @@
 		C5ADFBC01DDCC7840011824B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Mapbox;
 				TargetAttributes = {
 					351BEBD61E5BCC28006FE110 = {
@@ -850,6 +1072,23 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = GJZR2MEM28;
 						ProvisioningStyle = Automatic;
+					};
+					35A6029B1E8E995F003B4E48 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = GJZR2MEM28;
+						ProvisioningStyle = Automatic;
+					};
+					35A602AE1E8E995F003B4E48 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = GJZR2MEM28;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 35A6029B1E8E995F003B4E48;
+					};
+					35A602B91E8E995F003B4E48 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = GJZR2MEM28;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 35A6029B1E8E995F003B4E48;
 					};
 					35B711CE1E5E7AD2001EDA8D = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -890,6 +1129,9 @@
 				352BBC461E5E78D700703DF1 /* Example-SwiftTests */,
 				352BBC541E5E78EA00703DF1 /* Example-Objective-CTests */,
 				35B711CE1E5E7AD2001EDA8D /* MapboxNavigationUITests */,
+				35A6029B1E8E995F003B4E48 /* RouteSimulator */,
+				35A602AE1E8E995F003B4E48 /* RouteSimulatorTests */,
+				35A602B91E8E995F003B4E48 /* RouteSimulatorUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -939,6 +1181,30 @@
 				35002D6F1E5F6C7F0090E733 /* Base.lproj in Resources */,
 				35002D6E1E5F6C7F0090E733 /* Assets.xcassets in Resources */,
 				35002D761E5F6CD30090E733 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35A6029A1E8E995F003B4E48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35A602A91E8E995F003B4E48 /* LaunchScreen.storyboard in Resources */,
+				35A602A61E8E995F003B4E48 /* Assets.xcassets in Resources */,
+				35A602A41E8E995F003B4E48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35A602AD1E8E995F003B4E48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35A602B81E8E995F003B4E48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1099,6 +1365,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		35A602981E8E995F003B4E48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35A602A11E8E995F003B4E48 /* ViewController.swift in Sources */,
+				35A6029F1E8E995F003B4E48 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35A602AB1E8E995F003B4E48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35A602B41E8E995F003B4E48 /* RouteSimulatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35A602B61E8E995F003B4E48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35A602BF1E8E995F003B4E48 /* RouteSimulatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		35B711CB1E5E7AD2001EDA8D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1174,6 +1465,26 @@
 			target = 351BEBD61E5BCC28006FE110 /* MapboxNavigationUI */;
 			targetProxy = 354A01D91E6626D400D765C2 /* PBXContainerItemProxy */;
 		};
+		35A602B11E8E995F003B4E48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35A6029B1E8E995F003B4E48 /* RouteSimulator */;
+			targetProxy = 35A602B01E8E995F003B4E48 /* PBXContainerItemProxy */;
+		};
+		35A602BC1E8E995F003B4E48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35A6029B1E8E995F003B4E48 /* RouteSimulator */;
+			targetProxy = 35A602BB1E8E995F003B4E48 /* PBXContainerItemProxy */;
+		};
+		35A602CD1E8E996C003B4E48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5ADFBC81DDCC7840011824B /* MapboxNavigation */;
+			targetProxy = 35A602CC1E8E996C003B4E48 /* PBXContainerItemProxy */;
+		};
+		35A602D11E8E996C003B4E48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 351BEBD61E5BCC28006FE110 /* MapboxNavigationUI */;
+			targetProxy = 35A602D01E8E996C003B4E48 /* PBXContainerItemProxy */;
+		};
 		35B711D61E5E7AD2001EDA8D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 351BEBD61E5BCC28006FE110 /* MapboxNavigationUI */;
@@ -1208,6 +1519,22 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
+		35A602A21E8E995F003B4E48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35A602A31E8E995F003B4E48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		35A602A71E8E995F003B4E48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35A602A81E8E995F003B4E48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -1216,6 +1543,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = GJZR2MEM28;
@@ -1401,6 +1729,116 @@
 			};
 			name = Release;
 		};
+		35A602C21E8E995F003B4E48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = GJZR2MEM28;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = RouteSimulator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mapbox.RouteSimulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		35A602C31E8E995F003B4E48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				DEVELOPMENT_TEAM = GJZR2MEM28;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = RouteSimulator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mapbox.RouteSimulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		35A602C51E8E995F003B4E48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = GJZR2MEM28;
+				INFOPLIST_FILE = RouteSimulatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mapbox.RouteSimulatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RouteSimulator.app/RouteSimulator";
+			};
+			name = Debug;
+		};
+		35A602C61E8E995F003B4E48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				DEVELOPMENT_TEAM = GJZR2MEM28;
+				INFOPLIST_FILE = RouteSimulatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mapbox.RouteSimulatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RouteSimulator.app/RouteSimulator";
+			};
+			name = Release;
+		};
+		35A602C81E8E995F003B4E48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = GJZR2MEM28;
+				INFOPLIST_FILE = RouteSimulatorUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mapbox.RouteSimulatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RouteSimulator;
+			};
+			name = Debug;
+		};
+		35A602C91E8E995F003B4E48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				DEVELOPMENT_TEAM = GJZR2MEM28;
+				INFOPLIST_FILE = RouteSimulatorUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mapbox.RouteSimulatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RouteSimulator;
+			};
+			name = Release;
+		};
 		35B711D81E5E7AD2001EDA8D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1538,6 +1976,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = GJZR2MEM28;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1660,6 +2099,33 @@
 			buildConfigurations = (
 				358D14BB1E5E3FDC00ADE590 /* Debug */,
 				358D14BC1E5E3FDC00ADE590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35A602C11E8E995F003B4E48 /* Build configuration list for PBXNativeTarget "RouteSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35A602C21E8E995F003B4E48 /* Debug */,
+				35A602C31E8E995F003B4E48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35A602C41E8E995F003B4E48 /* Build configuration list for PBXNativeTarget "RouteSimulatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35A602C51E8E995F003B4E48 /* Debug */,
+				35A602C61E8E995F003B4E48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35A602C71E8E995F003B4E48 /* Build configuration list for PBXNativeTarget "RouteSimulatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35A602C81E8E995F003B4E48 /* Debug */,
+				35A602C91E8E995F003B4E48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

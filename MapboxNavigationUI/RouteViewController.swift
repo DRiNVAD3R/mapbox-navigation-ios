@@ -9,6 +9,8 @@ public class NavigationPulleyViewController: PulleyViewController {}
 
 public protocol RouteViewControllerDelegate {
     func routeViewControllerDidCancelNavigation(_:RouteViewController)
+    func routeViewController(_ routeViewController: RouteViewController, willChange route: Route)
+    func routeViewController(_ routeViewController: RouteViewController, didChangeTo route: Route)
 }
 
 /**
@@ -22,8 +24,12 @@ public class RouteViewController: NavigationPulleyViewController {
     
     // A `route` object constructed by [MapboxDirections.swift](https://github.com/mapbox/MapboxDirections.swift)
     public var route: Route! {
+        willSet {
+            navigationDelegate?.routeViewController(self, willChange: route)
+        }
         didSet {
             setupRouteController()
+            navigationDelegate?.routeViewController(self, didChangeTo: route)
         }
     }
     

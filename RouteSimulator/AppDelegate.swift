@@ -1,6 +1,4 @@
 import UIKit
-import Mapbox
-
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
