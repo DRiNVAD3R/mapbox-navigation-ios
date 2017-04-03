@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="RT0-af-q1p">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -8,6 +8,22 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="10a-dc-DVs">
+            <objects>
+                <navigationController id="RT0-af-q1p" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Z6j-be-MIC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="lbQ-iK-zy7"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EB8-Nw-YnI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-834" y="36"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -74,6 +90,13 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="A3N-JT-loC" secondAttribute="bottom" id="iAW-RV-9er"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="FQN-m9-tf9">
+                        <barButtonItem key="rightBarButtonItem" title="Files" id="k6w-Po-jTT">
+                            <connections>
+                                <action selector="didTapFiles:" destination="BYZ-38-t0r" id="hgB-aW-cP3"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="howToBeginLabel" destination="Hk0-SM-2Wl" id="iU7-G1-DBc"/>
                         <outlet property="mapView" destination="A3N-JT-loC" id="iZS-hq-X5f"/>
@@ -88,7 +111,7 @@
                     </connections>
                 </pongPressGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="24.800000000000001" y="35.532233883058474"/>
+            <point key="canvasLocation" x="23" y="35"/>
         </scene>
         <!--Navigation-->
         <scene sceneID="Cg8-0l-4UG">

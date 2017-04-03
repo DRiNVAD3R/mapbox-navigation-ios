@@ -4,6 +4,7 @@ import MapboxNavigationUI
 import MapboxDirections
 import Mapbox
 import CoreLocation
+import GuideDog
 
 let sourceIdentifier = "sourceIdentifier"
 let layerIdentifier = "layerIdentifier"
@@ -32,6 +33,13 @@ class ViewController: UIViewController, MGLMapViewDelegate {
     deinit {
         suspendNotifications()
         navigation?.suspendLocationUpdates()
+    }
+    
+    @IBAction func didTapFiles(_ sender: Any) {
+        let controller = FREFilesViewController()
+        controller.delegate = self
+        let navigationController = UINavigationController(rootViewController: controller)
+        present(navigationController, animated: true, completion: nil)
     }
     
     @IBAction func didLongPress(_ sender: UILongPressGestureRecognizer) {
@@ -177,5 +185,11 @@ class ViewController: UIViewController, MGLMapViewDelegate {
     
     func roundToTens(_ x: CLLocationDistance) -> Int {
         return 10 * Int(round(x / 10.0))
+    }
+}
+
+extension ViewController: FREFilesViewControllerDelegate {
+    func didTapSimulateRoute(withFilePath filePath: URL!) {
+        // TODO: Generate route from location points or convert to waypoints and request with MapboxDirections.swift
     }
 }
